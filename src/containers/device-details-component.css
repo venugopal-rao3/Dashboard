@@ -1,0 +1,8 @@
+.device-details-container {
+    height: auto;
+    display: inline-block;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}

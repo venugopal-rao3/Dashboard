@@ -1,0 +1,32 @@
+.main-header {
+    position: fixed;
+    top: 0;
+    left:50px;
+    right:0;
+    z-index:-1;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    box-shadow: 3px 0 6px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+/* .main-header div{
+    display: flex;
+} */
+.main-header > .side-menu-container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center
+}
+.brand h2 {
+  font-size: 0.9rem;
+  padding-left: 2.2rem;
+}
+.brand span {
+  font-size: 0.9rem;
+  color: #3768c4;
+}

@@ -1,0 +1,19 @@
+.device-details-header {
+    text-align: center;
+    border-bottom: 1px solid #f9f9f9;
+}
+.device-details-header h3 {
+  height: 21px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3d3d3d;
+  text-align: center;
+}
+.device-details-header img {
+  padding-top: 1rem;
+}

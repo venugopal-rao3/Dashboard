@@ -1,0 +1,42 @@
+.user-profile {
+    height: auto;
+    width: 105px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.user-profile .user-profile--avatar{
+    height: 35px;
+    width: 35px;
+    border: 3px solid #2299ff;
+    position: relative;
+    border-radius: 50%;
+}
+.user-profile .user-profile--avatar::after{
+    content:"";
+    height:32px;
+    width: 32px;
+    display: block;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    border: 1px solid #fff;
+
+}
+
+.user-profile .user-profile--notification {
+    height: 25px;
+    width: 25px;
+    position: relative;
+}
+.user-profile .user-profile--notification::after {
+    content:'';
+    height:5px;
+    display: block;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #2299ff;
+}

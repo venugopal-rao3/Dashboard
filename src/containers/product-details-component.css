@@ -1,0 +1,379 @@
+.product-details-container {
+  width: 100%;
+  display: flex;
+  margin:0;
+}
+.device-details {
+  
+}
+
+.secondory-details {
+  padding: 0 0 0 8rem;
+}
+
+.secondory-details .price-wrapper-details-page a{
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 100px;
+  border: solid 0.5px #9b9b9b;
+  margin-right: 0.5rem;
+}
+.product-details-container .details-wrapper {
+  width: 50%;
+  display: block;
+  padding-top: 2rem;
+}
+.name-description h1{
+  font-family: ProximaNova;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+.name-description {
+  padding: 0 6.5rem 0 0;
+}
+
+.name-description p {
+  font-family: ProximaNova;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #2d303f;
+  margin: 0;
+}
+.details-wrapper .image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.refundable-deposit  {
+  display: inline-block;
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
+.refundable-deposit p,
+ .delivery-pickup p{
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #2d303f;
+  margin-bottom: 0.5rem;
+}
+.refundable-deposit span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #2d303f;
+
+}
+.delivery-pickup span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #07c9a1;
+}
+
+.delivery-pickup {
+  display: inline-block;
+  padding-top: 2rem;
+}
+
+.device-details .price-wrapper {
+  padding-top: 0.5rem;
+}
+
+.product-selection-container {
+  display: block;
+  width: 50%;
+  background-color: #f2f2f2;
+}
+
+.inner-product-selection p {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.inner-product-selection {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.quantity-age-selection {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+}
+.quantity {
+  padding-right: 5rem;
+}
+.quantity select {
+  width: 106px;
+  height: 40px;
+  padding-left: 1rem;
+  border-radius: 3.2px;
+  box-shadow: 0 2px 17px 0 rgba(0, 0, 0, 0.12);
+  border: solid 1px rgba(218, 218, 218, 0.67);
+  background-color: #ffffff;
+}
+
+.age-selection select {
+  width: 250px;
+  height: 40px;
+  padding-left: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 17px 0 rgba(0, 0, 0, 0.12);
+  border: solid 1px rgba(218, 218, 218, 0.67);
+  background-color: #ffffff;
+}
+
+.quantity p,
+.age-selection p {
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+
+.quantity span {
+  opacity: 0.7;
+  font-family: ProximaNova;
+  font-size: 0.6rem;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.79;
+  letter-spacing: normal;
+  color: #f94d36;
+} 
+
+
+.date-picker-container {
+  padding: 2rem;
+}
+.input-date-picker {
+  background-color: #ffffff;
+  padding-bottom: 5rem;
+}
+
+.date-picker-container input{
+  width: 125px;
+  height: 40.8px;
+  border-radius: 3.2px;
+  border: solid 0.5px #bababa;
+  padding-left: 2rem;
+  margin-right: 1.5rem;
+}
+
+.to {
+  padding-right: 1.4rem;
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+.number-days {
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+
+.number-days em {
+  font-family: ProximaNova;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2d303f;
+  position: relative;
+  top: 0.3rem;
+  padding-left: 0.5rem;
+}
+
+.price-discount-wrapper {
+  display: block;
+  position: absolute;
+  right: calc(100% - 90%);
+  top: 8rem;
+}
+
+.input-date-picker {
+  position: relative;
+  width: 100%;
+}
+
+.price-discount-wrapper .rent-wrapper p{
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+
+.price-discount-wrapper .rent-wrapper .price-value {
+  font-family: ProximaNova;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2d303f;
+  width: 150px;
+  height: 62px;
+  border-radius: 6px;
+  border: solid 1px #00d4a9;
+  background-color: rgba(0, 212, 169, 0.07);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.refund,
+.delivery {
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  padding: 0 1rem;
+
+}
+.delivery {
+  margin-top: 0.5rem;
+}
+
+.refund p, 
+.delivery p {
+  font-family: ProximaNova;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2d303f;
+  display: inline-block;
+  width: 60px;
+}
+.refund span,
+.delivery span {
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2d303f;
+  display: inline-block;
+  padding-left: 1rem;
+}
+.DateRangePicker {
+  margin-top: 4rem;
+}
+
+.rent-surge {
+  display: inline-block;
+  position: absolute;
+  top: calc(100% - 20% );
+}
+
+.rent-surge span {
+  font-family: ProximaNova;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #848796;
+  padding-right: 2.5rem;
+}
+.rent-surge span:first-child {
+  padding-left: 2rem;
+}
+.rent-surge span:first-child:before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #ff7889;
+  border-radius: 100%;
+  top: 0.6rem;
+  left: 1.4rem;
+}
+
+.Booking p {
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+
+.DateRangePicker__CalendarSelection {
+  background-color: #07c9a1!important;
+  border-color: #07c9a1!important;
+}
+
+.DateRangePicker__CalendarSelection:hover {
+  border-color: #ffffff!important;
+}
+
+.add-to-cart-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.8rem;
+}
+
+.add-to-cart-wrapper a {
+  width: 100%;
+  height: 55px;
+  border-radius: 4px;
+  background-color: #07c9a1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}

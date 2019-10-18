@@ -1,0 +1,187 @@
+.order-successfull-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.main-order-clearfix {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2rem 1.5rem;
+  border-radius: 4px;
+  border: solid 1px #2d303f;
+  flex-wrap: wrap;
+}
+.main-order-clearfix h1 {
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+.delivery-address p,
+.payment-details p {
+  font-family: ProximaNova;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  color: #2d303f;
+  margin: 0.5rem;
+}
+.delivery-address span,
+.payment-details span {
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+textarea {
+  font-family: ProximaNova;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+.order-clearfix {
+  padding: 2rem 11.3rem;
+}
+
+.main-order-clearfix img {
+  position: relative;
+  top: 0.3rem;
+  margin-right: 0.5rem;
+}
+.order-successfull-wrapper h1 {
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+.order-sucessfull-wrapper p {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  color: #000000;
+}
+.order-successfull-wrapper span {
+  color:#07c9a1;
+  font-weight: 600;
+}
+
+.order-successfull-wrapper .hint {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #9b9b9b;
+}
+.order-details-heading {
+  padding: 1rem 11rem;
+}
+
+.order-details-heading ul,
+.order-item-details ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-details-heading ul li,
+.order-item-details ul li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+
+.order-item-details ul li {
+  font-weight: normal;
+  font-size : 12px;
+}
+.order-item-details ul {
+  padding: 0 0.3rem 0 1.9rem;
+}
+
+.order-item-details ul li:nth-child(1) {
+  padding-left: 2rem;
+}
+.order-item-details ul li:nth-child(4) {
+  padding-right: 2rem;
+}
+.order-item-details ul li:nth-child(5) {
+  padding-right: 1rem;
+  font-size: 14px;
+}
+
+.order-item-details {
+  padding: 0.3rem 11rem;
+}
+.order-item-details ul li:nth-child(3) {
+  font-weight: 600;
+}
+.order-item-details ul li:nth-child(5) {
+  font-weight: 600;
+  color: #07c9a1;
+}
+
+.quantity-size-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.quantity-size-wrapper p {
+  padding-right: 2rem;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+
+.quantity-size-wrapper span {
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #2d303f;
+  margin-left: 0.5rem;
+}
+.go-to-myorder-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+
+.goto-order {
+  border-radius: 4px;
+  background-color: #07c9a1;
+  padding: 1rem 9rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}

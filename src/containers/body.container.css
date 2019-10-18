@@ -1,9 +1,0 @@
-.body-wrapper {
-    margin:100px 0px 0px 100px;
-    position: absolute;
-    bottom: 0;
-    left:0;
-    z-index: -999;
-    height: calc( 100vh - (50px + 20px));
-    width: calc(100vw - (50px + 100px));
-}

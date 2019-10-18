@@ -1,0 +1,306 @@
+.cart-item-clearfix .cart-summary {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  flex-flow: row;
+  border-radius: 4px;
+  box-shadow: 0 3px 17px 0 rgba(86, 124, 171, 0.1);
+  background-color: #fff;
+  float: left;
+  padding: 1rem 3rem 1rem 0.5rem;
+  margin-left: 4rem;
+}
+
+.cart-summary h1 {
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+
+.name-quantity {
+  width: 180px;
+}
+.name-quantity p {
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #909090;
+}
+
+.name-quantity span {
+  font-weight: 600;
+  color: #2d303f;
+  padding-left: 0.5rem;
+}
+.cart-refund {
+  padding-right: 2.8rem;
+}
+.cart-delivery,
+.cart-refund {
+  margin-top: 1rem;
+}
+.cart-refund p:nth-child(1),
+.cart-refund p:nth-child(3),
+.cart-refund p:nth-child(4),
+.cart-delivery p:nth-child(1),
+.cart-delivery p:nth-child(3),
+.cart-delivery p:nth-child(4) {
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+
+.cart-refund p:nth-child(2),
+.cart-delivery p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #07c9a1;
+}
+
+.cart-refund p:nth-child(4),
+.cart-delivery p:nth-child(4) {
+  font-weight: 600;
+}
+.rent-wrapper {
+  display: block;
+  vertical-align: top;
+  padding-left: 2rem;
+  padding-top: 0;
+  margin: 0;
+  position: relative;
+  top: -15px;
+}
+.rent-wrapper p:first-child {
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+
+.rent-wrapper p:last-child {
+  font-family: ProximaNova;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+
+.cart-item-total-rent p {
+  font-family: ProximaNova;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+.cart-item-total-rent p span {
+  font-weight: normal;
+}
+.cart-item-total-rent {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  float: left;
+  padding-top: 3rem;
+  padding-left: 4rem;
+}
+
+.cart-item-total-rent .rent {
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+.cart-item-total-rent .rent span {
+  font-family: ProximaNova;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+
+.delivery-notes {
+  width: 332px;
+  height: 88px;
+  display: inline-block;
+  left: 6%;
+  position: relative;
+  border: solid 1px rgba(204, 204, 204, 0.63);
+  background-color: #ffffff;
+  padding: 1rem 4rem;
+}
+.delivery-notes p {
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #000000;
+}
+.delivery-notes a {
+  font-family: ProximaNova;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a90e2;
+  text-decoration: underline;
+}
+
+.rent-summary {
+  box-shadow: 0 3px 17px 0 rgba(86, 124, 171, 0.1);
+  background-color: #ffffff;
+  display: inline-block;
+  position: relative;
+  left: 2%;
+  margin-top: 3rem;
+}
+
+.rent-summary li {
+  padding: 1.5rem 0;
+  list-style: none;
+}
+
+.rent-summary li em {
+  float: left;
+  padding-right: 2rem;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #2d303f;
+}
+.rent-summary li strong {
+  float: right;
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+.rent-summary-wrapper {
+  padding: 3rem 5rem 3rem 0.5rem;
+}
+
+.rent-summary-wrapper h1 {
+  font-family: ProximaNova;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #000000;
+  padding-left: 2rem;
+}
+.rent-summary-wrapper span {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #848796;
+  position: relative;
+  top: 2rem;
+  left: -9rem;
+}
+
+.checkout-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #07c9a1;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.checkout-wrapper .checkout-link {
+  border-radius: 8px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.rent-summary-wrapper a {
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a90e2;
+  text-decoration: underline;
+}
+.hide-details {
+  margin-bottom: 2rem;
+}
+.total-payable-amount {
+  font-weight: 600!important;
+}
+
+.rent-summary li .green-bold-font {
+  font-family: ProximaNova;
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  color: #07c9a1;
+}
+.rent-summary li .green-font {
+  color: #07c9a1;
+  font-weight: 600;
+}
+.coupon-code {
+  float: right;
+}
+.checkbox-wrapper {
+  margin-right: 0.3rem;
+}
+.warning-wrapper {
+  margin-left: 0.3rem;
+}

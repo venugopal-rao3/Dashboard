@@ -1,0 +1,104 @@
+.device-page-details {
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.device-page-details > div {
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  position: relative;
+  left: 5%;
+  margin-bottom: 1.2rem;
+}
+
+.device-page-details h3 {
+  padding: 1.5rem 2.5rem; 
+  height: 19px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3d3d3d;
+}
+
+.table td,th {
+  height: 18px;
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #a9a9a9;
+  padding: 0.75rem 1.6rem 0.75rem 2.3rem !important;
+}
+.table th {
+  border-bottom: unset !important;
+}
+
+.table-footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.shown-devices {
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #888888;
+}
+.pagination-per-page {
+  width: 113px;
+  height: 30px;
+  opacity: 0.8;
+  border-radius: 16px;
+  background-color: #b2b2b2;
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  color: #3768c4;
+  display: flex;
+  justify-content: center;
+}
+.pagination li  a{
+  border-radius: 50%;
+
+}
+.pagination li  a:last-child {
+  border-radius: 50%!important;
+}
+
+.page-item:first-child .page-link {
+  border-top-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+.page-link {
+  border-radius: 50%;
+  line-height: 0;
+  border: none !important;
+  color: #dee2e6 !important;
+  font-size: 0.7rem;
+}
+.page-link:focus {
+  outline:none;
+  box-shadow: none !important;
+}
+.page-item.active .page-link {
+  background-color:#cccccc !important;
+  border-color: unset !important;
+}

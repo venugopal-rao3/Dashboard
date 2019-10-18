@@ -1,0 +1,18 @@
+.device-status-offline {
+    position: relative;
+    font-size: 12px;
+
+
+}
+.device-status-offline::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top:50%;
+    left:0;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: red;
+    transform: translate( -10px, -50%)
+}

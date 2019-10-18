@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import  HeaderStatusDropdown  from '../components/header-status-dropdown-component';
+import  UserProfile  from './../components/user-profile-component';
 import './header.css';
 
 class Header extends Component {
@@ -7,42 +9,24 @@ class Header extends Component {
         this.state = {  }
     }
     render() { 
+        const HeaderStatusDropdownData = [
+            {image: 'wifi',title: "System Status",options:["Healthy", "Offline", "Maintainence"]},
+            {image: 'doller',title: "Todays spends",options:["$42.20", "Greater than $5", "Greater than $10"]},
+            {image: 'Location',title: "Location",options:["Coffee Hut Gachiboli", "select-2", "select-3"]}
+        ]
         return ( 
             <header className="main-header">
-              <div className ="desktop-header">
-                <img src="/images/bitmap.jpg" alt="company-icon" className="company-wrapper"/>
-                <img src="/images/search.svg" alt="search" className="search-clearfix"/>
-                <input type="text" name="#"  placeholder = "Search for laptop, costumes etc" class="search_input">
-                </input> 
-
-                <div className = "icons-container">
-                  <p className = "user-profile-name">Hi Jason
-                    <img src="/images/down-arrow-black.svg" alt="down-arrow" className="user-profile-dropdown"/>
-                  </p>
-                  <img src="/images/cart.svg" alt="cart" className="cart-clearfix"/>
+                <div className="brand"><h2>Open <span>Wifi</span></h2></div>
+                <div className="side-menu-container">
+                    {
+                        HeaderStatusDropdownData.map( i => {
+                            return <HeaderStatusDropdown title={i.title} image={i.image} options={i.options}/>
+                        }
+                           
+                        )
+                    }
+                    <UserProfile/>
                 </div>
-              </div>
-
-              <div className = "search-container">
-                <img src="/images/search.svg" alt="search" className="search-clearfix"/>
-                <input type="text" name="#"  placeholder = "Search for laptop, costumes etc" class="search_input">
-                </input> 
-              </div>
-              <div className = "header">
-                <input class="menu-btn" type="checkbox" id="menu-btn" />
-                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-                <img src="/images/bitmap.jpg" alt="company-icon" className="company-wrapper"/>
-                <img src="/images/cart.svg" alt="cart" className="cart-clearfix"/>
-                <ul class="menu">
-                    <select className = "user-profile-name">Hi Jason
-                    <img src="/images/down-arrow-black.svg" alt="down-arrow" className="user-profile-dropdown"/>
-                    <option value="profile">Profile</option>
-                    <option value="wishlist">Wishlist</option>
-                    <option value="Orders">Orders</option>
-                  </select>
-                </ul>
-              </div>
-
             </header>
          );
     }
